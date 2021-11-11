@@ -8,22 +8,22 @@ from .caller import WebCaller
 from .objects import ActDTO
 from .objects import AccountDTO
 
-# from .objects import ContentItemDTO
-# from .objects import LeaderboardDTO
+from .objects import ContentItemDTO
+from .objects import LeaderboardDTO
 from .objects import PlatformDataDTO
 
 from .objects import ContentList
 
-# from .values import SAFES
-# from .values import ROUTES
+from .values import SAFES
+from .values import ROUTES
 from .values import LOCALE
 from .values import LOCALES
 
-# from .values import REGIONS
-# from .values import HEADERS
-# from .values import WEB_API
-# from .values import ENDPOINTS
-# from .values import CLIENT_API
+from .values import REGIONS
+from .values import HEADERS
+from .values import WEB_API
+from .values import ENDPOINTS
+from .values import CLIENT_API
 
 
 run = asyncio.run
